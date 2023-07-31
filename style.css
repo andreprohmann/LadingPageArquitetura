@@ -15,12 +15,14 @@
 }
 #menuInformativo{
     background-color: #F9F9F9;
-    margin-left: 50px;
-    margin-top: 50px;
     display: grid;
     grid-auto-flow: column;
     columns: auto;
-    padding: 50px;
+    padding-bottom: 50px;
+}
+#Informacional{
+    margin-top: 50px;
+    margin-left: 50px;
 }
 #menuApresentacao{
     display: grid;
