@@ -14,6 +14,7 @@
     padding-bottom: 50px;
 }
 #menuInformativo{
+    background-color: #F9F9F9;
     margin-left: 50px;
     margin-top: 50px;
     display: grid;
@@ -28,6 +29,7 @@
     margin-top: 50px;
 }
 #apresentacaoTexto{
+    margin-top: 200px;
     margin-left: 50px;
 }
 #formulario{
