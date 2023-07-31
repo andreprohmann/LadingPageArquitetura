@@ -1,60 +1,71 @@
-*{
+* {
     font-family: 'Inter', sans-serif;
     margin: 0px;
 }
-#menuSuperior{
+
+#menuSuperior {
     background-color: #303030;
     padding: 100px;
-    color: #FFFFFF;    
+    color: #FFFFFF;
 }
+
 #tituloMenuSuperior {
     margin-top: 75px;
 }
+
 #textoMenuSuperior {
     padding-bottom: 50px;
 }
-#menuInformativo{
+
+#menuInformativo {
     background-color: #F9F9F9;
     display: grid;
     grid-auto-flow: column;
     columns: auto;
     padding-bottom: 50px;
 }
-#Informacional{
+
+#Informacional {
     margin-top: 50px;
     margin-left: 50px;
 }
-#menuApresentacao{
+
+#menuApresentacao {
     display: grid;
     grid-auto-flow: column;
     columns: auto;
     margin-top: 50px;
 }
-#apresentacaoTexto{
+
+#apresentacaoTexto {
     margin-top: 200px;
     margin-left: 50px;
 }
-#formulario{
+
+#formulario {
     background-color: #303030;
     text-align: center;
-    font-size: 15px;    
+    font-size: 15px;
     color: #383838;
-    margin-top:50px;
+    margin-top: 50px;
 }
-#tituloFormulario{
+
+#tituloFormulario {
     padding: 50px;
-    color: #FFFFFF;    
+    color: #FFFFFF;
 }
-input{
+
+input {
     width: 300px;
     height: 30px;
     background-color: #EAECE5;
-    margin:15px;
-    border:0px;
+    margin: 15px;
+    border: 0px;
     border-radius: 5px;
     padding-left: 10px;
 }
-button{
+
+button {
     background-color: #C07212;
     border-radius: 10px;
     width: 250px;
@@ -68,3 +79,10 @@ button{
     cursor: pointer;
 }
 
+button:hover {
+    background-color: #C07212;
+    color: aliceblue;
+    transform: translateY(-7px);
+    transition-duration: 0.75;
+    box-shadow: 0px 15px 20px #38383873;
+}
